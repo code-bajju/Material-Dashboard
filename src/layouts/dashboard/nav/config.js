@@ -13,7 +13,7 @@ const navConfig = [
   },
   {
     title: 'Messages',
-    path: '/dashboard/app',
+    path: '/dashboard/message',
     icon: icon('ic_message'),
   },
   {
@@ -28,13 +28,13 @@ const navConfig = [
   },
   {
     title: 'Leave Management',
-    path: '/dashboard/blog',
-    icon: icon('ic_blog'),
+    path: '/dashboard/leavemgmt',
+    icon: icon('ic_leave'),
   },
   {
     title: 'Performance Management',
     path: '/dashboard/blog',
-    icon: icon('ic_blog'),
+    icon: icon('ic_performance'),
   },
   {
     title: 'login',
