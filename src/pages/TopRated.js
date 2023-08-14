@@ -9,24 +9,28 @@ const TopRated = () => {
       name: 'Bajrang',
       image: 'https://avatars.githubusercontent.com/u/104210183?v=4',
       rating: 4.5,
+      position: 'Web Developer'
     },
     {
       id: 2,
       name: 'Sushant',
       image: 'https://source.unsplash.com/featured/300x201',
       rating: 3.0,
+      position: 'Backend Developer'
     },
     {
       id: 3,
       name: 'Sujal Garg',
       image: 'https://source.unsplash.com/featured/300x201"',
       rating: 5.0,
+      position: 'Python Developer'
     },
     {
       id: 4,
       name: 'Sahil',
       image: 'https://source.unsplash.com/featured/300x201"',
       rating: 4.0,
+      position: 'Ui/Ux Designer'
     },
   ];
 
@@ -38,7 +42,7 @@ const TopRated = () => {
           // <Grid item xs={12} md={6} key={user.id}>
             // <Card>
               <CardContent>
-                <div style={{ display: 'flex', alignItems: 'center' }}>
+                <div style={{ display: 'flex', alignItems: 'center',marginLeft:'-30px' }}>
                   <img
                     src={user.image}
                     alt={`${user.name} Avatar`}
@@ -50,12 +54,12 @@ const TopRated = () => {
                     }}
                   />
                   <div>
-                    <Typography variant="h6">{user.name}</Typography>
-                    <Typography variant="body2">
-                      Description of the product goes here.
+                    <Typography style={{fontSize:'13px',fontWeight:'bold'}}>{user.name}</Typography>
+                    <Typography variant="body2" style={{fontSize:'13px'}}>
+                    {user.position}
                     </Typography>
-                    {/* Add the Rating component here */}
-                    <Rating name={`product-rating-${user.id}`} value={user.rating} precision={0.5} readOnly />
+                
+                    <Rating style={{fontSize:'17px'}} name={`product-rating-${user.id}`} value={user.rating} precision={0.5} readOnly />
                   </div>
                 </div>
               </CardContent>
