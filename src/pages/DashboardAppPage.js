@@ -38,19 +38,19 @@ export default function DashboardAppPage() {
 
         <Grid container spacing={3}>
           <Grid item xs={12} sm={6} md={3}>
-            <AppWidgetSummary title="Message" total={"178 +"} icon={'ant-design:message-filled'} />
+            <AppWidgetSummary style={{color: "#9B1061",backgroundColor:"white"}}title="Message" total={"178 +"} color="axis" icon={'ant-design:message-filled'} />
           </Grid>
 
           <Grid item xs={12} sm={6} md={3}>
-            <AppWidgetSummary title="Resume Screening" total={"28"} color="info" icon={'ant-design:book-filled'} />
+            <AppWidgetSummary style={{color: "#9B1061",backgroundColor:"white"}} title="Resume Screening" total={"28"} color="axis" icon={'ant-design:book-filled'} />
           </Grid>
 
           <Grid item xs={12} sm={6} md={3}>
-            <AppWidgetSummary title="Sales Product" total={"190 +"} color="warning" icon={'ant-design:profile-filled'} />
+            <AppWidgetSummary style={{color: "#9B1061",backgroundColor:"white"}} title="Sales Product" total={"190 +"} color="axis" icon={'ant-design:profile-filled'} />
           </Grid>
 
           <Grid item xs={12} sm={6} md={3}>
-            <AppWidgetSummary title="Job Description" total={234} color="error" icon={'ant-design:idcard-filled'} />
+            <AppWidgetSummary style={{color: "#9B1061",backgroundColor:"white"}} title="Job Description" total={234} color="axis" icon={'ant-design:idcard-filled'} />
           </Grid>
 
           <Grid item xs={12} md={6} lg={8}>
