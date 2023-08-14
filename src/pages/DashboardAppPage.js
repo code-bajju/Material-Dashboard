@@ -28,7 +28,7 @@ export default function DashboardAppPage() {
   return (
     <>
       <Helmet>
-        <title> Dashboard | Minimal UI </title>
+        <title> Dashboard | Axis Bank </title>
       </Helmet>
 
       <Container maxWidth="xl">
