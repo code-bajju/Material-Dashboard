@@ -31,7 +31,7 @@ import Scrollbar from '../../../components/scrollbar';
 const NOTIFICATIONS = [
   {
     id: faker.datatype.uuid(),
-    title: 'Your order is placed',
+    title: 'New assignment from Freshco pvt. limited',
     description: 'waiting for shipping',
     avatar: null,
     type: 'order_placed',
