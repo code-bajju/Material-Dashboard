@@ -36,11 +36,12 @@ const SECONDARY = {
 
 const INFO = {
   lighter: '#D0F2FF',
-  light: '#74CAFF',
-  main: '#1890FF',
+  light: '#9B1061',
+  main: '#9B1061',
   dark: '#0C53B7',
-  darker: '#04297A',
-  contrastText: '#fff',
+  darker: '#9B1061',
+  contrastText: '#9B1061',
+  icon:'#9B1061',
 };
 
 const SUCCESS = {
@@ -68,6 +69,7 @@ const ERROR = {
   dark: '#B72136',
   darker: '#7A0C2E',
   contrastText: '#fff',
+  axis:'#9B1061',
 };
 
 const palette = {
@@ -75,6 +77,7 @@ const palette = {
   primary: PRIMARY,
   secondary: SECONDARY,
   info: INFO,
+  axis:ERROR,
   success: SUCCESS,
   warning: WARNING,
   error: ERROR,
