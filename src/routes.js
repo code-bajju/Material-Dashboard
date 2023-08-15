@@ -15,6 +15,9 @@ import JobDescription from './pages/JobDescription';
 import Performance from './pages/Performance';
 import TargetView from './pages/TargetView';
 import TargetSetup from './pages/TargetSetup';
+// import { Register } from './sections/auth/Register';
+// import RegisterForm from './sections/auth/login/Register';
+import RegisterForm from './sections/auth/login/Register';
 
 // ----------------------------------------------------------------------
 
@@ -35,12 +38,18 @@ export default function Router() {
         { path: 'performance', element: <Performance /> },
         { path: 'target-view', element: <TargetView /> },
         { path: 'target-setup', element: <TargetSetup /> },
+        // { path: 'Register', element: <Register /> },
 
       ],
     },
     {
       path: 'login',
       element: <LoginPage />,
+     
+    },
+    {
+      path: 'Register',
+      element: <RegisterForm />,
     },
     {
       element: <SimpleLayout />,
