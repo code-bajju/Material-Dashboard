@@ -157,10 +157,13 @@ export default function UserPage() {
           <Typography variant="h4" gutterBottom>
             Resume Screening
           </Typography>
-          <Button variant="contained" startIcon={<Iconify icon="eva:plus-fill" />}>
+          <Button  variant="contained"
+  color="primary"
+  style={{ marginLeft: '10px', backgroundColor: '#96144C', color: 'white', borderRadius: '4px' }} startIcon={<Iconify icon="eva:plus-fill" />}>
            Add Resume
           </Button>
         </Stack>
+      
 
         <Card>
           <UserListToolbar numSelected={selected.length} filterName={filterName} onFilterName={handleFilterByName} />
