@@ -146,13 +146,14 @@ const Message = () => {
                     onChange={(e) => setNewMessage(e.target.value)}
                   />
                   <Button
-                    variant="contained"
-                    color="primary"
-                    style={{ marginLeft: '10px' }}
-                    onClick={handleSendMessage}
-                  >
-                    Send
-                  </Button>
+  variant="contained"
+  color="primary"
+  style={{ marginLeft: '10px', backgroundColor: '#96144C', color: 'white', borderRadius: '4px' }}
+  onClick={handleSendMessage}
+>
+  Send
+</Button>
+
                 </div>
               </div>
             ) : (
