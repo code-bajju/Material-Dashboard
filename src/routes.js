@@ -11,6 +11,10 @@ import ProductsPage from './pages/ProductsPage';
 import DashboardAppPage from './pages/DashboardAppPage';
 import LeaveManagementPage from './pages/LeaveManagement';
 import Message from './pages/message';
+import JobDescription from './pages/JobDescription';
+import Performance from './pages/Performance';
+import TargetView from './pages/TargetView';
+import TargetSetup from './pages/TargetSetup';
 
 // ----------------------------------------------------------------------
 
@@ -27,6 +31,11 @@ export default function Router() {
         { path: 'blog', element: <BlogPage /> },
         { path: 'message', element: <Message /> },
         { path: 'leavemgmt', element: <LeaveManagementPage /> },
+        { path: 'JobDesc', element: <JobDescription /> },
+        { path: 'performance', element: <Performance /> },
+        { path: 'target-view', element: <TargetView /> },
+        { path: 'target-setup', element: <TargetSetup /> },
+
       ],
     },
     {
