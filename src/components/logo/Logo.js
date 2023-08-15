@@ -80,7 +80,15 @@ const Logo = forwardRef(({ disabledLink = false, sx, ...other }, ref) => {
 
   return (
     <Link to="/" component={RouterLink} sx={{ display: 'contents' }}>
-    <img style={{width: "50%",marginLeft:"20%"}} src={"https://companieslogo.com/img/orig/AXISBANK.BO-8f59e95b.png?t=1672905040"} alt="Logo" />
+   <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center',}}>
+  <img
+    style={{ width: '50%' }}
+    src={"https://github.com/code-bajju/Material-Dashboard/blob/main/public/assets/images/logo.png?raw=true"}
+    alt="Logo"
+  />
+</div>
+
+
     </Link>
   );
 });
