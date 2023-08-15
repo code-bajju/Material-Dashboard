@@ -23,7 +23,7 @@ const navConfig = [
   },
   {
     title: 'Job Description',
-    path: '/dashboard/products',
+    path: '/dashboard/JobDesc',
     icon: icon('ic_job'),
   },
   {
@@ -33,7 +33,7 @@ const navConfig = [
   },
   {
     title: 'Performance Management',
-    path: '/dashboard/blog',
+    path: '/dashboard/performance',
     icon: icon('ic_performance'),
   },
   {
