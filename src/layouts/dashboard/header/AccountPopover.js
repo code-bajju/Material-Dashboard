@@ -80,6 +80,9 @@ export default function AccountPopover() {
           <Typography variant="subtitle2" noWrap>
             {account.displayName}
           </Typography>
+          <Typography variant="body2" noWrap>
+            {account.position}
+          </Typography>
           <Typography variant="body2" sx={{ color: 'text.secondary' }} noWrap>
             {account.email}
           </Typography>
